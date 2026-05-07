@@ -1,3 +1,6 @@
 ultralytics
 albumentations
 kaggle
+gradio
+opencv-python-headless
+groq
