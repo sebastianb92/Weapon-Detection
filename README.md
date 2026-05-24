@@ -2,7 +2,7 @@
 
 Este proyecto hace parte del curso **Proyecto III de Innovación Tecnológica** de la Maestría en Inteligencia Artificial Aplicada (MIAA), Universidad Icesi, Cali, Colombia.
 
-> **Estado del proyecto:** `Completado`
+> **Estado del proyecto:** `En revisión`
 
 ---
 
@@ -10,15 +10,10 @@ Este proyecto hace parte del curso **Proyecto III de Innovación Tecnológica** 
 
 | Rol | Nombre | GitHub | Correo |
 |-----|--------|--------|--------|
-| Líder del proyecto | Johan Sebastian Bonilla | [@sebastianb92](https://github.com/sebastianb92) | johan.bonilla@u.icesi.edu.co |
+| Integrante | Johan Sebastian Bonilla | [@sebastianb92](https://github.com/sebastianb92) | johan.bonilla@u.icesi.edu.co |
 | Integrante | Edwin Felipe Gómez | [@edwingomez](https://github.com/edwingomez) | edgo1688@gmail.com |
 | Instructor | Yesid Ospitia Medina | — | — |
 
----
-
-## Contacto
-
-Para preguntas, sugerencias o interés en contribuir, puedes contactar al líder del proyecto a través de GitHub o al correo indicado en la tabla anterior.
 
 ---
 
@@ -109,8 +104,8 @@ El dataset utilizado proviene de la iniciativa **DaSCI Open Data** (Universidad 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/sebastianb92/ecomarket-rag-solution.git
-cd ecomarket-rag-solution
+git clone https://github.com/sebastianb92/Weapon-Detection.git
+cd Weapon-Detection
 
 # Instalar dependencias
 pip install -r requirements.txt
@@ -182,20 +177,17 @@ El modelo entrenado (`best.pt`) está disponible en la carpeta `models/`. Si des
 ## Estructura del repositorio
 
 ```
-├── data/
-│   ├── raw/                  # Datos originales (no modificar)
-│   └── processed/            # Datos preparados para entrenamiento
+├── content/
+│   ├── imagen_prueba.jpg           # Imagén de prueba para inferencia
+│   └── video_prueba.mp4            # Video de prueba para inferencia
 ├── models/
 │   └── best.pt               # Pesos del modelo YOLO26s entrenado
 ├── notebooks/
 │   ├── 01_eda.ipynb          # EDA, auditoría, preprocesamiento y entrenamiento
 │   ├── 02_inference.ipynb    # Inferencia en imagen/video + módulo GenAI
 │   └── 03_app.ipynb          # Aplicación interactiva Gradio
-├── results/
-│   ├── metrics/              # Curvas de entrenamiento, matrices de confusión
-│   └── inference/            # Imágenes y videos procesados de ejemplo
+│
 ├── requirements.txt
-├── dataset.yaml              # Configuración del dataset para Ultralytics
 └── README.md
 ```
 
