@@ -200,8 +200,8 @@ El modelo entrenado (`best.pt`) está disponible en la carpeta `models/`. Si des
 | `01_eda.ipynb` | EDA completo, auditoría de gaps, preprocesamiento y entrenamiento YOLO26s | [Ver notebook](notebooks/01_eda.ipynb) |
 | `02_inference.ipynb` | Pipeline de inferencia en imagen y video + descripción automática con GenAI | [Ver notebook](notebooks/02_inference.ipynb) |
 | `03_app.ipynb` | Aplicación interactiva Gradio (3 pestañas: imagen, video, métricas) | [Ver notebook](notebooks/03_app.ipynb) |
-| `best.pt` | Pesos del modelo YOLO26s entrenado (mAP@0.5 = 0.954) | [Ver modelo](models/best.pt) |
-| Documento del proyecto | Informe técnico completo en formato IEEE (Icesi) | [Ver PDF](docs/Proyecto_MIAA_Deteccion_Armas.pdf) |
+| `best.pt` | Pesos del modelo YOLO26s entrenado (mAP@0.5 = 0.954) | [Ver modelo](model/best.pt) |
+| Documento del proyecto | Informe técnico completo| [Ver PDF](docs/Proyecto_MIAA_Deteccion_Armas.pdf) |
 
 ---
 
