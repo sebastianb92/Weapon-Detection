@@ -11,8 +11,8 @@ Este proyecto hace parte del curso **Proyecto III de Innovación Tecnológica** 
 | Rol | Nombre | GitHub | Correo |
 |-----|--------|--------|--------|
 | Integrante | Johan Sebastian Bonilla | [@sebastianb92](https://github.com/sebastianb92) | johan.bonilla@u.icesi.edu.co |
-| Integrante | Edwin Felipe Gómez | [@edwingomez](https://github.com/edwingomez) | edgo1688@gmail.com |
-| Instructor | Yesid Ospitia Medina | — | — |
+| Integrante | Edwin Felipe Gómez | [@edgo1688](https://github.com/edgo1688) | edgo1688@gmail.com |
+| Instructor | Yesid Ospitia Medina | — | yesid.ospitia@u.icesi.edu.co |
 
 
 ---
@@ -98,7 +98,7 @@ El dataset utilizado proviene de la iniciativa **DaSCI Open Data** (Universidad 
 
 ---
 
-## Cómo empezar
+## Cómo empezar (How to install)
 
 ### Requisitos previos
 
